@@ -32,13 +32,19 @@ pip install -r requirements.txt
 
 Key packages:
 
-* `fastapi`
-* `grpcio`, `grpcio-tools`
-* `transformers`
-* `torch`
-* `pydantic`
-* `gradio`
-* `uvicorn`
+- `transformers`
+- `torch`
+- `fastapi`
+- `uvicorn`
+- `gradio`
+- `grpcio`
+- `grpcio-tools`
+- `pydantic`
+- `requests`
+- `edge-tts`
+- `uuid`
+- `asyncio`
+
 
 ---
 
