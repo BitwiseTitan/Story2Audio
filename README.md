@@ -4,7 +4,7 @@ This project is a microservice-based NLP application that generates creative sto
 
 -  FastAPI REST endpoint (`/generate`)
 -  gRPC endpoint for high-performance interservice calls
--  Text generation using Hugging Face models
+-  Text generation using Databricks/dolly v2
 -  TTS audio synthesis
 -  Tests for both REST and gRPC interfaces
 -  Gradio UI + Postman testing
