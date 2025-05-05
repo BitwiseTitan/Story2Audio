@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service StoryGenerator {
+  rpc Generate (StoryRequest) returns (StoryReply) {}
+}
+
+message StoryRequest {
+  string topic = 1;
+}
+
+message StoryReply {
+  string status = 1;
+  string story = 2;
+  string audio_file = 3;
+}

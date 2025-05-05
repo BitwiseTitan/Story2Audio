@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi_app
+    ports:
+      - "8000:8000"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    depends_on:
+      - grpc
+    restart: unless-stopped
+
+  grpc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: grpc_server
+    command: python grpc_server.py
+    ports:
+      - "50051:50051"
+    restart: unless-stopped
+
+  gradio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gradio_ui
+    command: python gradio_app.py
+    ports:
+      - "7860:7860"
+    depends_on:
+      - grpc
+    restart: unless-stopped

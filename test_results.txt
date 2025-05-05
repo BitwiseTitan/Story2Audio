@@ -1,0 +1,17 @@
+Started gRPC server...
+Started FastAPI server...
+D:\~spring 25~\NLP\CourseProject\venv\Lib\site-packages\torch\_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+
+Waiting for 0 seconds, press a key to continue ...
+
+INFO: No tasks running with the specified criteria.
+
+INFO: No tasks running with the specified criteria.
+All done.
+Press any key to continue . . .
+
+
+
+
+MEANS ALL TESTS PASSED!
