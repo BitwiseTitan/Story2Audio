@@ -127,7 +127,7 @@ docker run -p 8000:8000 -p 50051:50051 storygen-app
 
 ---
 
-## 🖼 Sample UI (Gradio)
+## Sample UI (Gradio)
 
 The Gradio interface allows:
 
