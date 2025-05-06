@@ -16,7 +16,7 @@ def generate_story(topic: str) -> str:
         f"Story Title: James Frostheart and the Fall of Civilization\n\n"
         f"Write a story in a literary, immersive tone. No user comments, reviews, ratings, or summaries.\n"
         f"James Frostheart is an 18-year-old genius living in a fortified outpost in a post-apocalyptic Earth. "
-        f"His AI companion Stella, blunt and strategic, helps him defend against marauders, cyborg armies, and internal breakdowns. "
+        f"His AI companion Stella, blunt and strategic, helps him defend against marauders, cyborg armies, and internal breakdowns and different kind of magical, mythical enemies "
         f"Include a rich world, deep inner conflict, emotional growth, and a meaningful resolution.\n\n"
         f"Topic: {topic}\n"
         f"Begin the story:"
